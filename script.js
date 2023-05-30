@@ -47,8 +47,7 @@ function saludar(nombre) {
 }
 saludar("Angela");
  
-
-
+// me faltan la funcion de sumar se me va el codigo
 
  // objetos
 
@@ -66,5 +65,37 @@ saludar("Angela");
    console.log(coche);
   
 
+   function obtenerMarcaCoche() {
+    return coche.marca;
+}
+console.log(obtenerMarcaCoche());
+document.write(obtenerMarcaCoche());
 
-  
+function obtenerPuertasCoche() {
+  return coche.puertas;
+}
+
+console.log(obtenerPuertasCoche());
+document.write(obtenerPuertasCoche());
+
+function obtenerColorCoche(){
+  return color.coche.techo;
+}
+
+// no logro que se me imprima el atributo del objeto añadido
+
+
+// Arrays
+
+let numeros = [2, 12, 22, 32, 42, 52, 62, 72, 82, 92,]
+console.log(numeros);
+document.write(numeros + "<br>");
+
+function agregarNumero(numero) {
+  numeros.push(numero);
+}
+agregarNumero(102);
+console.log(numeros);
+document.write(numeros + "<br>");
+
+// funcion que elimine los pares no logrado
